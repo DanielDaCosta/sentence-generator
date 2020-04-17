@@ -1,0 +1,49 @@
+{
+    "default": {
+        "na": {
+            "na": [
+                "{title} corresponde à {newData}" 
+            ]
+        }
+    },
+    "peopleCount": {
+        "positive": {
+            "1": [
+                "{nowDim} houve um leve aumento n{title} para {newData} {lastDim}. Um crescimento de {difference}",
+                "{nowDim}, {title} aumentou ligeiramente para um total de {newData} {lastDim}"
+            ],
+            "2": [
+                "{nowDim} {title} aumentou de {oldData} para {newData} {lastDim}",
+                "{nowDim} houve um crescimento n{title} {lastDim}: {newData}. Um aumento de {difference}",
+                "Houve um aumento de {difference} n{title} {nowDim} {lastDim}. Uma variação de {oldData} para {newData}"
+            ],
+            "3": [
+                "{nowDim} ocorreu uma grande alteração n{title} para {newData} {lastDim}",
+                "Elevado crescimento n{title} {nowDim} {lastDim}: {oldData} para {newData}",
+                "{nowDim} verificou-se uma intensificação n{title} para {newData} {lastDim}"
+            ]
+        },
+        "neutral": {
+            "0": [
+                "{nowDim}, {title} se manteve em {newData} {lastDim}",
+                "Não houve alteração n{title}: {newData} {nowDim} {lastDim} ",
+                "Sem mudança considerável n{title}. Permanência em {newData} {nowDim} "
+            ]
+        },
+        "negative": {
+            "-1": [
+                "{title} diminuiu ligeramente para {newData} {nowDim} {lastDim}",
+                "Atenuação de {difference} n{title}: {oldData} para {newData}"
+            ],
+            "-2": [
+                "{title} reduziu de {oldData} para {newData} {lastDim}",
+                "{nowDim} {title} diminuiu razoavelmente em {difference} {lastDim}"
+            ],
+            "-3": [
+                "{nowDim}, {title} diminuiu consideravelmente de {oldData} para {newData} {lastDim}",
+                "{title} reduziu significativamente {lastDim} para {newData}",
+                "{nowDim} alta redução n{title} {lastDim} para {newData}"
+            ]
+        }
+    }
+}
