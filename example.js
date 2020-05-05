@@ -6,17 +6,17 @@ const settings = {
     dataType: 'peopleCount'
 }
 
-const title = "Pessoas Contadas"
+const title = "number of people"
 const oldData = 5
-const newData = 10
+const newData = 5
 const NL = new NLG(title, oldData, newData, settings)
 
 // Based on the sentences.json file, two new varibles were added:
 // {actualDim} and {lastDim}. So now, we have two add the values 
 // of these two variables
 NL.addVariable({
-    actualDim: 'no dia de hoje',
-    lastDim: 'ontem'
+    actualDim: 'today',
+    lastDim: 'in comparison to yestarday'
 })
 
 const sentence = NL.generateSentence()

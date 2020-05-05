@@ -1,2 +1,25 @@
 # sentence-generator
-Generates sentences based on numerical inputs, taking into account: sensitiveness and intensity of the data
+Generates sentences based on numerical inputs, taking into account: sensitiveness and intensity of the data.
+
+With this project you can build sentences like:
+- Input: "number of people", 
+- Old Data
+- New Data
+- Settings: object containing settings informations:
+   * sensitiveness: sensitiveness of data,
+   * threshold: minimum value to change level of data
+   * precision: desired decimal places
+   * dataType: group of the inserted data
+
+
+Example: 
+```
+Today, the number of people decreased reasonably to 2. Decrease of 60% in comparison to yestarday.
+There was an increase of 60% in the number of people counted today in comparison to yestarday. A variation from 5 to 8.
+There wasn't any considerable change in the number of people today. Stayed constant on 5 in comparison to yestarday.
+```
+
+## Usage
+You can build your own senteces own the *senteces.json* file, choosing your own variables.
+You then can set the values of each variables, and changing the NLG intensity.
+

@@ -22,7 +22,7 @@ class NaturalLanguageGenerator {
       oldData: this.oldData,
       newData: this.newData
     }
-    this.THRESHOLD = 10 // threshold for absolute comparison for this.config.level
+    this.THRESHOLD = 0 // threshold for absolute comparison for this.config.level
   }
 
   /**
