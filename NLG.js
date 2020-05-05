@@ -16,7 +16,7 @@ class NaturalLanguageGenerator {
     this.newData = newData
     this.settings = settings
     this.config = {}
-    this.sentences = require('./resources/sentences_2.json')
+    this.sentences = require('./resources/sentences.json')
     this.variables = {
       title: this.title,
       oldData: this.oldData,
@@ -170,13 +170,15 @@ class NaturalLanguageGenerator {
     const stringArray = sentence.split('.')
     let newSentence = ''
     stringArray.forEach(element => {
-      newSentence += element.charAt(0).toUpperCase() + element.slice(1) + '. '
+      newSentence += element.charAt(0).toUpperCase() + element.slice(1) + '.'
     })
     return newSentence
   }
 
   /**
-   * Generate sentence base on predefined values
+   * Generate sentence base on predefined values.
+   * If there is more than one sentence avaible for the level,
+   * one sentence is chosen randomly.
    * @name generateSentence
    * @returns {string} - sentence
    * @public

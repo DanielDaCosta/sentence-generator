@@ -1,0 +1,49 @@
+{
+    "default": {
+        "na": {
+            "na": [
+                "{title} corresponde à {newData}" 
+            ]
+        }
+    },
+    "peopleCount": {
+        "positive": {
+            "1": [
+                "{actualDim} houve um leve aumento n{title} para {newData} {lastDim}. Um crescimento de {growth}",
+                "{actualDim}, {title} aumentou ligeiramente para um total de {newData} {lastDim}. Crescimento de {growth}"
+            ],
+            "2": [
+                "{actualDim}, {title} aumentou de {oldData} para {newData} {lastDim}",
+                "{actualDim} houve um crescimento n{title} {lastDim} para {newData}. Um aumento de {growth}",
+                "Houve um aumento de {growth} n{title} {actualDim} {lastDim}. Uma variação de {oldData} para {newData}"
+            ],
+            "3": [
+                "{actualDim} ocorreu um grande aumento n{title} para {newData} {lastDim}. Variação de mais de {growth}",
+                "Elevado crescimento n{title} {actualDim} {lastDim}: de {oldData} para {newData}",
+                "{actualDim} verificou-se uma intensificação n{title} para {newData} {lastDim}. Aumento de mais de {growth}"
+            ]
+        },
+        "neutral": {
+            "0": [
+                "{actualDim}, {title} se manteve em {newData} {lastDim}",
+                "{actualDim}, não houve alteração n{title}: {newData} {lastDim}",
+                "Sem mudança considerável n{title} {actualDim}. Manteve-se em {newData} {lastDim}"
+            ]
+        },
+        "negative": {
+            "-1": [
+                "{actualDim} {title} diminuiu ligeiramente para {newData} {lastDim}. Uma redução de {growth}",
+                "{actualDim}, atenuação de {growth} n{title}: {oldData} para {newData} {lastDim}"
+            ],
+            "-2": [
+                "{title} {actualDim} reduziu de {oldData} para {newData} {lastDim}",
+                "{actualDim}, {title} diminuiu razoavelmente para {newData}. Diminuição de {growth} {lastDim}"
+            ],
+            "-3": [
+                "{actualDim}, {title} diminuiu consideravelmente de {oldData} para {newData} {lastDim}",
+                "{title} {actualDim} reduziu significativamente {lastDim} para {newData}. Uma queda de mais de {growth}",
+                "{actualDim}, alta redução n{title} {lastDim}: de {oldData} para {newData}"
+            ]
+        }
+    }
+}
