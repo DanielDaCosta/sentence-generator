@@ -1,4 +1,4 @@
-# sentence-generator
+# Natural Language Generator
 Generates sentences based on numerical inputs, taking into account: sensitiveness and intensity of the data.
 
 With this project you can build sentences like:
