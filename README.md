@@ -14,9 +14,9 @@ With this project you can build sentences like:
 
 Example: 
 ```
-Today, the number of people decreased reasonably to 2. Decrease of 60% in comparison to yestarday.
-There was an increase of 60% in the number of people counted today in comparison to yestarday. A variation from 5 to 8.
-There wasn't any considerable change in the number of people today. Stayed constant on 5 in comparison to yestarday.
+- Today, the number of people decreased reasonably to 2. Decrease of 60% in comparison to yestarday.
+- There was an increase of 60% in the number of people counted today in comparison to yestarday. A variation from 5 to 8.
+- There wasn't any considerable change in the number of people today. Stayed constant on 5 in comparison to yestarday.
 ```
 
 ## Usage
