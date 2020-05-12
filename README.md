@@ -23,3 +23,7 @@ There wasn't any considerable change in the number of people today. Stayed const
 You can build your own senteces own the *senteces.json* file, choosing your own variables.
 You then can set the values of each variables, and changing the NLG intensity.
 
+## References & Acnknoledgments
+
+Special Thanks to @Jitta and his [Git Rebo](https://github.com/jitta/Natural-Language-Generation), for the base idea of the preject
+
