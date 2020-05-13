@@ -23,6 +23,16 @@ Example:
 You can build your own senteces own the *senteces.json* file, choosing your own variables.
 You then can set the values of each variables, and changing the NLG intensity.
 
+## Development
+
+All contributors of all levels are welcome to help in any possible away. 
+
+**Souce Code**
+
+```
+git clone https://github.com/DanielDaCosta/gradient-descent.git
+```
+
 ## References & Acnknoledgments
 
 Special Thanks to @Jitta and his [Git Rebo](https://github.com/jitta/Natural-Language-Generation), for the base idea of the preject
