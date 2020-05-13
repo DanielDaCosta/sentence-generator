@@ -30,7 +30,7 @@ All contributors of all levels are welcome to help in any possible away.
 **Souce Code**
 
 ```
-git clone https://github.com/DanielDaCosta/gradient-descent.git
+git clone https://github.com/DanielDaCosta/sentence-generator.git
 ```
 
 ## References & Acnknoledgments
