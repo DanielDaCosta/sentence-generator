@@ -25,7 +25,9 @@ You then can set the values of each variables, and changing the NLG intensity.
 
 ## Development
 
-All contributors of all levels are welcome to help in any possible away. 
+All contributors of all levels are welcome to help in any possible away.
+
+The project has a MIT license.
 
 **Souce Code**
 
