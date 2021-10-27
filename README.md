@@ -30,7 +30,6 @@ All contributors of all levels are welcome to help in any possible away.
 The project has a MIT license.
 
 **Souce Code**
-
 ```
 git clone https://github.com/DanielDaCosta/sentence-generator.git
 ```
