@@ -35,6 +35,4 @@ git clone https://github.com/DanielDaCosta/sentence-generator.git
 ```
 
 ## References & Acnknoledgments
-
 Special Thanks to @Jitta and his [Git Rebo](https://github.com/jitta/Natural-Language-Generation), for the base idea of this project.
-
