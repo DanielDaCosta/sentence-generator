@@ -24,7 +24,6 @@ You can build your own senteces own the *senteces.json* file, choosing your own 
 You then can set the values of each variables, and changing the NLG intensity.
 
 ## Development
-
 All contributors of all levels are welcome to help in any possible away.
 
 The project has a MIT license.
